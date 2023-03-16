@@ -1,0 +1,52 @@
+.tooltip-wrapper:not(:hover):not(:focus-within) .tooltip-context {
+    display: none;
+}
+
+.tooltip-wrapper {
+    position: relative;
+    min-width: max-content;
+}
+.tooltip-context {
+    position: absolute;
+    width: 8em;
+    padding: 0.5em;
+    text-align: center;
+    top: 100%;
+    left: 0;
+    transform: translate(-35%, 5%);
+
+    background-color: var(--accent_card);
+    background: linear-gradient(45deg, var(--bg-main), transparent 90%),
+        var(--accent_card);
+    box-shadow: 0.1em 0.1em 0.3em var(--accent_card);
+    border-radius: 0.8em;
+
+    border: 0.2em solid var(--accent_card);
+}
+
+.tooltip-context:not(:hover) {
+    opacity: 95%;
+}
+
+.brand * {
+    padding-top: 0.2em;
+    font-family: "presto.it";
+    font-size: 1.5em;
+}
+
+@media (max-width: 500px) {
+    .brand {
+        display: none;
+    }
+    .wrapper-user-size {
+        transform: scale(70%);
+    }
+}
+@media (min-width: 500px) {
+    .d-500-none {
+        display: none;
+    }
+}
+.br-radius {
+    border-radius: 2vmin;
+}

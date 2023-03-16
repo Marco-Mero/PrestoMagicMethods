@@ -1,0 +1,26 @@
+Alla creazione dell'articolo usato reset() invece di funzione custom "cleanForm()"
+@csrf token rimosso dal componente livewire
+
+Componentizzato l'header del sito.
+Announcement Card componentizzate.
+Navbar e footer semplificati.
+
+Route naming:
+name('announcementCreate')
+name('categoryShow')
+name('announcementIndex')
+
+name('announcementSearch')
+
+Gli articoli visualizzati nella home sono gli ultimi sei inseriti, invece dei primi sei inseriti come nel video.
+
+Nel kernel comandi:
+Protected $commands non dovrebbe più servire
+
+Per nuova struttura Laravel:
+Le mail sono nuove
+
+
+Card semplificate rispetto a quelle base di Bootstrap
+Le Card ora hanno varie versioni, si trovano nella cartella components/announcement 
+Similmente, tutti i componenti hanno varie versioni, nella cartella components.

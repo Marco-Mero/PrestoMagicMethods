@@ -1,0 +1,71 @@
+/* modifiche leo */
+
+.form-custom-leo {
+    border-radius: 04%;
+    color: var(--bg-main);
+    background: var(--accent_nav);
+    max-width: 20em;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0.1em 0.2em var(--night);
+    text-align: start;
+}
+
+.form-custom-leo p {
+    color: var(--eggshell);
+    font-weight: 200;
+    font-size: var(--fs-mini);
+}
+.form-custom-leo a {
+    color: var(--bg-main);
+    font-weight: 550;
+    text-decoration: none;
+    text-shadow: 0em 0em 0.2em var(--accent_card);
+}
+.btn-custom_special {
+    color: var(--jaune);
+    border-radius: 0.4em;
+    border: 0.15em solid var(--bg-main);
+    padding: 0.5em;
+    background: linear-gradient(
+        45deg,
+        var(--tropical-indigo),
+        var(--accent_nav)
+    );
+    box-shadow: 0.1em 0.1em 0.2em var(--night);
+    transition: opacity 0.4s, color 0.4s, transform 0.3s ease-in-out;
+    max-width: 10em;
+    text-align: center;
+}
+.btn-custom_special:hover {
+    background: linear-gradient(
+        45deg,
+        var(--tropical-indigo),
+        var(--accent_nav)
+    );
+    color: var(--eggshell);
+    border: 0.15em solid var(--bg-main);
+}
+.btn-custom_special:active {
+    top: 3px;
+}
+.grid-images {
+    display: grid;
+    grid-template-columns: repeat(4, 10em);
+    gap: 0.5em;
+}
+
+.img-create {
+    height: 100%;
+}
+
+.form-store {
+    max-width: fit-content;
+}
+.line-custom{
+    border-radius: 80%;
+    width: 80vw;
+    height: 4px;
+    background-color: var(--accent_nav) ;
+}
