@@ -15,7 +15,7 @@
     <li>Use of Google API to classify images</li>
     <li>
     <dl>
-    <p> Revision functions </p>
+        <p> Revision functions </p>
         <dt>Request to work with the company<dt>
         <dd>Users can become revisors asking the Web-App admin</dd>
         <dt>Article Approval<dt>
