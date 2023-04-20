@@ -23,3 +23,5 @@
     </dl>
     </li>
 </ul>
+
+##### The project was a collaborative effort, with primarily academical purposes, with a two week time limit and a precise set of requests to fulfill. 
