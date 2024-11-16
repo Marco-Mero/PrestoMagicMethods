@@ -13,14 +13,12 @@
     <li>Listing user created articles</li>
     <li>Searching user created articles through indexing</li>
     <li>Use of Google API to classify images</li>
-    <li>
-    <dl>
-        <p> Revision functions </p>
-        <dt>Request to work with the company<dt>
-        <dd>Users can become revisors asking the Web-App admin</dd>
-        <dt>Article Approval<dt>
-        <dd>Revisors can approve or reject articles, that will not show on the Market otherwise</dd>
-    </dl>
+    <li> <ul> Revision functions 
+        <li>Request to work with the company</li>
+        <li>Users can become revisors asking the Web-App admin</li>
+        <li>Article Approval</li>
+        <li>Revisors can approve or reject articles, that will not show on the Market otherwise</li>
+    </ul>
     </li>
 </ul>
 
